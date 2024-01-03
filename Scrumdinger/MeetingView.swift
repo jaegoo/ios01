@@ -22,7 +22,7 @@ struct MeetingView: View {
                 VStack(alignment: .leading) {
                     Text("Seconds Elapsed")
                         .font(.caption)
-                    Label("300", systemImage: "hourglass.tophalf.fill")
+                    Label("329", systemImage: "hourglass.tophalf.fill")
 
                 }
                 Spacer()
