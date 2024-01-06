@@ -14,6 +14,9 @@
 		E61CDD6B2B3FD76A002C9DE9 /* ScrumdingerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61CDD6A2B3FD76A002C9DE9 /* ScrumdingerTests.swift */; };
 		E61CDD752B3FD76A002C9DE9 /* ScrumdingerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61CDD742B3FD76A002C9DE9 /* ScrumdingerUITests.swift */; };
 		E61CDD772B3FD76A002C9DE9 /* ScrumdingerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61CDD762B3FD76A002C9DE9 /* ScrumdingerUITestsLaunchTests.swift */; };
+		E64350CB2B498F3000C3F1E5 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64350CA2B498F3000C3F1E5 /* Theme.swift */; };
+		E64350CD2B49914300C3F1E5 /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64350CC2B49914300C3F1E5 /* DailyScrum.swift */; };
+		E64350D12B4998D500C3F1E5 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64350D02B4998D500C3F1E5 /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		E61CDD702B3FD76A002C9DE9 /* ScrumdingerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrumdingerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E61CDD742B3FD76A002C9DE9 /* ScrumdingerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumdingerUITests.swift; sourceTree = "<group>"; };
 		E61CDD762B3FD76A002C9DE9 /* ScrumdingerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumdingerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E64350CA2B498F3000C3F1E5 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		E64350CC2B49914300C3F1E5 /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
+		E64350D02B4998D500C3F1E5 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +100,8 @@
 		E61CDD582B3FD768002C9DE9 /* Scrumdinger */ = {
 			isa = PBXGroup;
 			children = (
+				E64350C92B498F1000C3F1E5 /* Models */,
+				E64350D02B4998D500C3F1E5 /* CardView.swift */,
 				E61CDD592B3FD768002C9DE9 /* ScrumdingerApp.swift */,
 				E61CDD5B2B3FD768002C9DE9 /* MeetingView.swift */,
 				E61CDD5D2B3FD769002C9DE9 /* Assets.xcassets */,
@@ -125,6 +133,15 @@
 				E61CDD762B3FD76A002C9DE9 /* ScrumdingerUITestsLaunchTests.swift */,
 			);
 			path = ScrumdingerUITests;
+			sourceTree = "<group>";
+		};
+		E64350C92B498F1000C3F1E5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E64350CA2B498F3000C3F1E5 /* Theme.swift */,
+				E64350CC2B49914300C3F1E5 /* DailyScrum.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +274,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E64350CD2B49914300C3F1E5 /* DailyScrum.swift in Sources */,
+				E64350CB2B498F3000C3F1E5 /* Theme.swift in Sources */,
 				E61CDD5C2B3FD768002C9DE9 /* MeetingView.swift in Sources */,
 				E61CDD5A2B3FD768002C9DE9 /* ScrumdingerApp.swift in Sources */,
+				E64350D12B4998D500C3F1E5 /* CardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
